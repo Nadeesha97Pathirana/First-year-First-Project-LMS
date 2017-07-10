@@ -1,0 +1,45 @@
+<html>
+
+<body bgcolor="blue">
+  
+   
+      <div><font color="black">
+
+	<font size="10">
+
+	<i><b>
+
+         Lecture  Details
+
+        </b></i>
+
+	</font size>
+
+	</div>
+
+	<br><br><br><br>
+
+      <div id=menu>
+
+	<font size="5">
+
+         <li> <mark><a href=Lecture name.html>Lecture name</a><br><br><br></li>
+
+         <li><mark><a href=subjects.html>subjects</a><br><br><br></li>
+
+         <li> <mark><a href=Contact numbers.html>Contact numbers</a><br><br><br></li>
+
+         <li><mark><a href=Email Address.html>Email Address</a><br><br><br></li>
+      
+      </div>
+
+ </body> 
+
+</html>
+
+
+
+
+
+
+
