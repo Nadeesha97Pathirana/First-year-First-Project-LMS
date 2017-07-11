@@ -1,0 +1,46 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="form.css">
+<script>
+	<title></title>
+	function validate(){
+	if(document.form1.password.value.length<8){
+	alert("Password must have at least 8 characters ");
+	}
+	}
+</script>
+</head>
+
+<body>
+<center>
+<table border="2" width="600" height="400" cellpadding="20px" cellspacing="5px">
+<tr>
+<td>
+<form name="form1">
+	<h1 style="text-decoration:underline; font-family:arial;text-align:center;">Sign Up<br><br></h1>
+	<ol> 
+	<li>First Name : <input type="text" name="Fname"><br><br></li>
+	<li>Last Name  : <input type="text" name="Lname" ><br><br></li>
+	<li>Email Address  : <input type="text" name="Email" ><br><br></li>
+	<li>Email Password  : <input type="password" name="Epsw" ><br><br></li>
+	<li>Index Number  : <input type="text" name="Ino" ><br><br></li>
+	<li>Course  : <input type="text" name="Lname" ><br><br></li>
+	<li>Citytown  :<input type="text" name="City" ><br><br></li>
+	<li>Country : 
+	<select>
+  		<option value="Srilanka">Srilanka</option>
+  		<option value="India">India</option>
+		<option value="America">America</option>
+	</select>
+	</li></ol><br>
+	<input type="submit" value="Sign In">
+	<input type="Reset" value="Cancel">
+	<br><br>
+	<a href="login.html">login</a>
+
+</td>
+</tr>
+</form>
+</table>
+</body>
+</html>
