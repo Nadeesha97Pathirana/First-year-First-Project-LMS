@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<script type="text/javascript" src="signup.js"></script>
+</head>
+<body bgcolor="green" >
+	<font face="arial" color="white" size="6">
+<center>
+	<!-- .....form.... -->
+	<form action="#" method="post">
+		<table id="table1" border="2">
+		<h1 style="text-decoration:underline; font-family:arial;text-align:center;">Sign Up<br><br></h1>
+			
+			<tr>
+				<td>First Name:</td>
+				<td><input type="text" id="first" onkeyup="validate();" /></td>
+				<td><div id="errFirst"></div></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input type="text" id="last" onkeyup="validate();"/></td>
+				<td><div id="errLast"></div></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="text" id="email" onkeyup="validate();"/></td>
+				<td><div id="errEmail"></div></td>
+			</tr>
+			<tr>
+				<td>User Id:</td>
+				<td><input type="text" id="uid" onkeyup="validate();"/></td>
+				<td><div id="errUid"></div></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" id="password" onkeyup="validate();"/></td>
+				<td><div id="errPassword"></div></td>
+			</tr>
+			<tr>
+				<td>Confirm Password:</td>
+				<td><input type="password" id="confirm" onkeyup="validate();"/></td>
+				<td><div id="errConfirm"></div></td>
+			</tr>
+			<tr>
+				<td><input type="button" id="Sign up" value="Sign up" onclick="validate();finalValidate();"/></td>
+				<td><input type="button" id="Cancel" value="Cancel" onclick="validate();finalValidate();"/></td>
+				<td><div id="errFinal"></div></td>
+			</tr>
+	</table>
+	</form>
+	<!-- /...form... -->
+</body>
+</html>
